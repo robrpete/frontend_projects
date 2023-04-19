@@ -12,8 +12,8 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![desktop](https://raw.githubusercontent.com/robrpete/robrpete.github.io/main/assets/images/desktop.PNG)
-![mobile](https://raw.githubusercontent.com/robrpete/robrpete.github.io/main/assets/images/mobile.PNG)
+![desktop](../../../Pictures/code/desktopViewQR.PNG)
+![mobile](../../../Pictures/code/mobileViewQR.PNG)
 ### Links
 
 - Solution URL: https://github.com/robrpete/robrpete.github.io

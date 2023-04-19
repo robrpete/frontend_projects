@@ -6,8 +6,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-![desktop](../../../Pictures/code/desktopViewQR.PNG)
-![mobile](../../../Pictures/code/mobileViewQR.PNG)
+![desktop](https://raw.githubusercontent.com/robrpete/frontend_projects/main/qr-code-component-main/design/desktop-design.jpg)
+![mobile](https://raw.githubusercontent.com/robrpete/frontend_projects/main/qr-code-component-main/design/mobile-design.jpg)
 ### Links
 
 - Solution URL: https://github.com/robrpete/robrpete.github.io
