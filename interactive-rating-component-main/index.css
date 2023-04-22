@@ -17,6 +17,10 @@ main{
     align-items: center;
 }
 
+.attribution{
+    color: white;
+}
+
 .rating{
     height: 26rem;
     max-width: 25.5rem;
@@ -48,10 +52,6 @@ main{
     font-size: 15px;
     color: hsl(216, 12%, 54%);
 }
-
-/* .desktop{
-    display: ;
-} */
 
 .mobile{
     display: none;
@@ -105,16 +105,51 @@ button:focus{
     background: linear-gradient(#202731, #171E28);
     border-radius: 2rem;
     color: white;
-    display: none;
-    flex-direction: column;
-    justify-content:  center;
-    align-items: center;
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
+    display: none;
+    justify-content: center;
+}
+
+.thankyoucenter{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-evenly;
+    align-items: center;
+}
+
+.thankyou p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+}
+
+.fix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.thanksrate{
+    background: hsl(213, 19%, 18%);
+    display: flex;
+    color: hsl(25, 97%, 53%);
+    padding: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-radius: 1rem;
 }
 
 @media screen and (min-width: 376px) and (max-width: 436px) {
     .rating{
+        width: 90%;
+    }
+    .thankyou{
         width: 90%;
     }
 }
@@ -133,6 +168,18 @@ button:focus{
         font-weight: 700;
     }
 
+    .thankyou{
+        height: 22rem;
+        max-width: 20rem;
+        background: linear-gradient(#202731, #171E28);
+        border-radius: 2rem;
+        color: white;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 700;
+        display: none;
+        justify-content: center;
+    }
+
     .circle{
         height: 2.4rem;
         width: 2.4rem;
@@ -142,6 +189,11 @@ button:focus{
         justify-content: center;
         align-items: center;
         color: hsl(216, 12%, 54%);
+    }
+
+    .clicked{
+        background: hsl(25, 97%, 53%);
+        color: white;
     }
 
     .desktop{
