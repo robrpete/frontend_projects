@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: hsl(216, 12%, 8%);
+}
+
+main{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    height: 26rem;
+    max-width: 25.5rem;
+    background: linear-gradient(#202731, #171E28);
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.ratingcenter{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ratingcenter h2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.rating p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+}
+
+/* .desktop{
+    display: ;
+} */
+
+.mobile{
+    display: none;
+}
+
+.circles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    height: 3rem;
+    width: 3rem;
+    background: hsl(213, 19%, 18%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.circle:hover{
+    background: hsl(217, 12%, 63%);
+    color: white;
+}
+
+button{
+    height: 3rem;
+    width: 100%;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus{
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.clicked{
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.thankyou{
+    height: 26rem;
+    max-width: 25.5rem;
+    background: linear-gradient(#202731, #171E28);
+    border-radius: 2rem;
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 376px) and (max-width: 436px) {
+    .rating{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .rating{
+        height: 22rem;
+        max-width: 20rem;
+        background: linear-gradient(#202731, #171E28);
+        border-radius: 2rem;
+        color: white;
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 700;
+    }
+
+    .circle{
+        height: 2.4rem;
+        width: 2.4rem;
+        background: hsl(213, 19%, 18%);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: hsl(216, 12%, 54%);
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: inline;
+    }
+}
+/* font-family: 'Overpass', sans-serif; */
