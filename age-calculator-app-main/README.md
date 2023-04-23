@@ -21,12 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](https://raw.githubusercontent.com/robrpete/frontend_projects/main/age-calculator-app-main/assets/images/agedesktop.PNG)
+![mobile](https://raw.githubusercontent.com/robrpete/frontend_projects/main/age-calculator-app-main/assets/images/agemobile.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/robrpete/frontend_projects/tree/main/age-calculator-app-main](https://your-solution-url.com)
+- Live Site URL: [https://robrpete.github.io](https://your-live-site-url.com)
 
 ## My process
 
